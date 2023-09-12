@@ -5,6 +5,8 @@
   align-content: center;
   margin: 30px 44px 0 64px;
   position: relative;
+
+  width: 1240px;
 }
 .img-banner {
   object-fit: cover;

@@ -4,8 +4,8 @@ import{Route, Routes} from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Error from './pages/pageError/Error';
-import Logement from './pages/houce/Logement';
-import Header from './components/header/Header';
+import Logement from './pages/logement/Logement'
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
      <Route path='/home' element={<Home/>}> </Route>
      <Route path='/about' element={<About/>}> </Route>
      <Route path='/notfind' element={<Error/>}> </Route>
-     <Route path='/logement' element={<Logement/>}> </Route>
+     <Route path='/houce' element={<Logement/>}> </Route>
      </Routes>
-     
-     <Header/>
+     <Home/>
+     <Footer/>
     </div>
   );
 }
