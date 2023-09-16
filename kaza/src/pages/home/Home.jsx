@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from '../../components/header/Header'
-import ApartementGridd from '../../components/apartements/ApartementGridd'
+import ApartmentGrid from '../../components/apartments/ApartmentGrid.jsx'
 
 function Home() {
   return (
     <div className='home'>
       <Header/>
-      <ApartementGridd/>
+      <ApartmentGrid/>
     </div>
   )
 }
